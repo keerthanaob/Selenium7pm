@@ -1,5 +1,6 @@
 package Project;
 
+import org.apache.commons.lang3.SystemUtils;
 //multiple imports(ctrl+shift+o)
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,6 +23,7 @@ public class LaunchBrowser {
 		String Title=driver.getTitle();  
 		System.out.println(Title);
 		System.out.println("first test");
+		System.out.println("Second test");
 		
 		//Method 3--->getCurrentUrl()--To get current url 
 		String url=driver.getCurrentUrl();
