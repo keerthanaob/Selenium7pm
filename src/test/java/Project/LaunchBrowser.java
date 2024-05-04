@@ -24,6 +24,7 @@ public class LaunchBrowser {
 		System.out.println(Title);
 		System.out.println("first test");
 		System.out.println("Second test");
+		System.out.println("Third test");
 		
 		//Method 3--->getCurrentUrl()--To get current url 
 		String url=driver.getCurrentUrl();
