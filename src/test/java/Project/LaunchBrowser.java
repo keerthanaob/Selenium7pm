@@ -21,6 +21,7 @@ public class LaunchBrowser {
 		//Method 2--->getTitle()--Title of page
 		String Title=driver.getTitle();  
 		System.out.println(Title);
+		System.out.println("first test");
 		
 		//Method 3--->getCurrentUrl()--To get current url 
 		String url=driver.getCurrentUrl();
